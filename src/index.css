@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.blur-my {
+  backdrop-filter: blur(30px);
+  background-color: rgba(234, 234, 237, 0.028);
+}
+.glow {
+  background-color: rgb(75, 202, 12);
+  animation: boxshadow 1.5s infinite;
+}
+@keyframes boxshadow {
+  0% {
+    -webkit-box-shadow: 5px 4px 4px 13px rgba(0, 255, 0, 0.056);
+  }
+  100% {
+    box-shadow: rgba(26, 221, 4, 0) 0px;
+  }
+}
