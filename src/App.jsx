@@ -11,7 +11,7 @@ import FramerMotion from "./FramerMotion";
 function App() {
   return (
     <ReactLenis root>
-      <motion.div className="bg-[#0a0a0a] p-5 select-none h-auto w-auto min-w-screen min-h-screen mx-auto flex flex-col gap-3">
+      <motion.div className="bg-[#141314] p-5 select-none h-auto w-auto min-w-screen min-h-screen mx-auto flex flex-col gap-3">
         <FramerMotion>
           <Header />
           <Skill />

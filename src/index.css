@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Lobster&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,12 +8,31 @@
   background-color: rgba(234, 234, 237, 0.028);
 }
 .glow {
-  background-color: rgb(75, 202, 12);
+  background-color: #5b4f59;
   animation: boxshadow 1.5s infinite;
 }
+p {
+  font-family: "Anek Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h1,
+h2 {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+hr {
+  background-color: #333333;
+  height: 0.5px;
+  border: none;
+}
+
 @keyframes boxshadow {
   0% {
-    -webkit-box-shadow: 5px 4px 4px 13px rgba(0, 255, 0, 0.056);
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(39, 135, 39, 0.056);
   }
   100% {
     box-shadow: rgba(26, 221, 4, 0) 0px;

@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
 function Project() {
-  const Project = [ {
+  const Project = [
+    {
       ProjectName: "Group 3 CTS ",
       Description:
         "I developed a dynamic web application for exploring creative thinking strategies using HTML, CSS, JavaScript, GSAP, and Tailwind CSS. The app features interactive exercises like mind mapping and SCAMPER, with smooth animations powered by GSAP. Tailwind CSS was utilized to create a responsive and modern UI, while JavaScript enabled seamless interaction. This project highlights my ability to combine front-end technologies to build engaging and educational web experiences.",
@@ -22,25 +23,28 @@ function Project() {
       DemoLink: "https://manage-income-exp-mmbd.vercel.app/User",
       CodeLink: "https://github.com/TANMAYAGARWALLSKT/Manage-Income---Exp",
     },
-   
   ];
   //   Demo: [Link] | Code: [GitHub Link]
 
   return (
     <div className="h-auto w-full my-3  ">
       {" "}
-      <div className=" h-auto mx-auto  lg:w-[60%]  text-white border-2  border-white/10 rounded-ss-md p-4 rounded-ee-md  ">
-        <div className="text-white text-4xl font-bold pb-5">My Projects</div>
+      <div className=" h-auto mx-auto  lg:w-[60%]   text-[#D6CE9D]  border-2  border-white/10 rounded-ss-md p-4 rounded-ee-md  ">
+        <div className=" text-[#D6CE9D]  text-4xl font-bold pb-5">
+          My Projects
+        </div>
         <hr className="mb-5"></hr>
         {Project.map((items, index) => {
           return (
             <>
               <div className=" flex flex-col relative">
-                <h1 className="text-4xl text-white font-semibold pb-2">
+                <h1 className="text-4xl  text-[#D6CE9D]  font-semibold pb-2">
                   {items.ProjectName}
                 </h1>
 
-                <p className=" text-sm text-white/50">{items.Description}</p>
+                <p className=" text-sm  text-[#D6CE9D] /50">
+                  {items.Description}
+                </p>
                 <hr className="mt-2" />
 
                 <span className=" w-full  flex  flex-col-reverse justify-end content-end ">
